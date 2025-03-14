@@ -107,10 +107,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                         &trans           &kp ENTER    &kp K_COPY  &kp K_PASTE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans           &mkp MB1     &mkp MB2    &lt 5 INS    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LG(Z)  &kp LC(LS(TAB))  &kp LC(TAB)  &trans      &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans                                                 &to 0
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &kp ENTER        &kp K_COPY   &kp K_PASTE
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp F2     &mkp MB1         &mkp MB2     &lt 5 INSERT
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LG(Z)  &kp LC(LS(TAB))  &kp LC(TAB)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                           &to 0
             >;
         };
 
