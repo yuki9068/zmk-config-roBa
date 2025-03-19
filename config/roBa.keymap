@@ -66,6 +66,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             tap-ms = <20>;
         };
     };
@@ -75,8 +76,8 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R    &kp T                                                         &kp Y             &kp U     &lt 4 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F    &kp G        &kp LS(LG(S))               &kp LS(N8)           &kp H             &mt F2 J  &kp K      &kp L    &kp SEMICOLON
+&mt LANGUAGE_1 Q  &kp W         &kp E         &kp R    &kp T                                                         &kp Y             &kp U     &lt 4 I    &kp O    &kp P
+&mt LANGUAGE_2 A  &kp S         &kp D         &kp F    &kp G        &kp LS(LG(S))               &kp LS(N8)           &kp H             &mt F2 J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V    &kp B        &kp SQT                     &kp LS(N9)           &kp N             &kp M     &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp TAB  &lt 4 MINUS  &lt_to_layer_0 2 SPACE      &lt 3 LC(LA(SPACE))  &lt 1 INT_HENKAN                                &to 4
             >;
@@ -115,10 +116,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &kp K_COPY       &kp K_PASTE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1   &mkp MB3         &mkp MB2     &lt 5 INSERT
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LG(Z)  &kp LC(LS(TAB))  &kp LC(TAB)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                           &to 0
+&trans  &trans  &trans  &trans  &trans                      &trans               &kp F2     &kp K_COPY       &kp K_PASTE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans               &mkp MB1   &mkp MB3         &mkp MB2     &lt 5 INSERT
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans               &kp LG(Z)  &kp LC(LS(TAB))  &kp LC(TAB)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &lt 1 LC(LA(SPACE))                                           &to 0
             >;
 
             sensor-bindings = <&scroll_up_down>;
