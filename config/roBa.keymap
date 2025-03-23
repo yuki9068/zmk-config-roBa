@@ -78,7 +78,7 @@
             bindings = <
 &mt LANGUAGE_1 Q  &kp W         &kp E         &kp R        &kp T                                                         &kp Y             &kp U     &lt 4 I    &kp O    &kp P
 &mt LANGUAGE_2 A  &kp S         &kp D         &kp F        &kp G        &kp LS(LG(S))               &kp LS(N8)           &kp H             &mt F2 J  &kp K      &kp L    &mt SEMICOLON ENTER
-&mt LEFT_SHIFT Z  &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &kp B        &kp SQT                     &kp LS(N9)           &kp N             &kp M     &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT Z  &mt LC(X) X   &mt LC(C) C   &mt LC(V) V  &kp B        &kp SQT                     &kp LS(N9)           &kp N             &kp M     &kp COMMA  &kp DOT  &kp LS(MINUS)
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp TAB      &lt 4 MINUS  &lt_to_layer_0 2 SPACE      &lt 3 LC(LA(SPACE))  &lt 1 INT_HENKAN                                &to 4
             >;
 
@@ -96,7 +96,7 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SEMICOLON                                              &trans  &kp F7  &kp F8  &kp F9  &kp F10
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LS(SEMICOLON)                                          &trans  &kp F7  &kp F8  &kp F9  &kp F10
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(SINGLE_QUOTE)  &kp LC(LA(KP_NUMBER_0))      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD            &kp UNDERSCORE               &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
 &trans                      &trans           &trans           &trans           &trans                &trans                       &trans  &trans                          &trans
